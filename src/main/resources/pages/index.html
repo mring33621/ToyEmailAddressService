@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page for Email Address Service</title>
+</head>
+<body>
+<form action="/countUniqueAddrs" method="post">
+    <fieldset>
+        <legend>Enter a delimited list of email addresses. I'll return the count of unique ones, based on Google's account name rules.</legend>
+        <textarea columns="40" rows="10" placeholder="e.g. tim@apple.com, larry.ellison@oracle.com" name="addrList"
+                  autocomplete="off" minlength="6" maxlength="10000" cols="40"></textarea>
+        <button>Ok</button>
+    </fieldset>
+</form>
+</body>
+</html>
